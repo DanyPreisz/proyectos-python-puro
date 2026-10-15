@@ -4,30 +4,34 @@ Proyectos realizables **solo con la biblioteca estándar** de Python. Sin framew
 
 ## Calculadora
 
-Archivo: [`calculadora.py`](https://github.com/DanyPreisz/proyectos-python-puro/blob/main/calculadora.py)
+- Script: [`calculadora.py`](https://github.com/DanyPreisz/proyectos-python-puro/blob/main/calculadora.py)
+- **Notebook listo para Colab**: [`calculadora.ipynb`](https://github.com/DanyPreisz/proyectos-python-puro/blob/main/calculadora.ipynb)
 
 ### Características
 - Modo interactivo (por defecto)
 - Uso por línea de comandos
 - Operaciones: `+ - * / **` (potencia), `sqrt()`, porcentaje (`%`)
+- Completamente funcional y listo para usar
 
-### Uso en Google Colab
+### Abrir directamente en Google Colab
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/DanyPreisz/proyectos-python-puro/blob/main/calculadora.ipynb)
+
+O descarga el notebook y súbelo a Colab.
+
+### Uso con el script (.py)
 
 ```python
-# Descargar y ejecutar
+# En Colab
 !wget -q https://raw.githubusercontent.com/DanyPreisz/proyectos-python-puro/main/calculadora.py
 !python calculadora.py
 ```
 
-También puedes copiar el contenido del archivo en una celda y ejecutarlo.
-
-### Uso local
-
 ```bash
+# Local
 python calculadora.py                  # modo interactivo
-python calculadora.py "5 + 3 * 2"      # una expresión
+python calculadora.py "5 + 3 * 2"
 python calculadora.py "sqrt(16)"
-python calculadora.py -i               # forzar interactivo
 ```
 
 ### Ejemplos
