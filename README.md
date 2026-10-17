@@ -5,50 +5,32 @@ Proyectos realizables **solo con la biblioteca estándar** de Python. Sin framew
 ## Calculadora
 
 - Script: [`calculadora.py`](https://github.com/DanyPreisz/proyectos-python-puro/blob/main/calculadora.py)
-- **Notebook listo para Colab**: [`calculadora.ipynb`](https://github.com/DanyPreisz/proyectos-python-puro/blob/main/calculadora.ipynb)
-
-### Características
-- Modo interactivo (por defecto)
-- Uso por línea de comandos
-- Operaciones: `+ - * / **` (potencia), `sqrt()`, porcentaje (`%`)
-- Completamente funcional y listo para usar
-
-### Abrir directamente en Google Colab
+- Notebook: [`calculadora.ipynb`](https://github.com/DanyPreisz/proyectos-python-puro/blob/main/calculadora.ipynb)
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/DanyPreisz/proyectos-python-puro/blob/main/calculadora.ipynb)
 
-O descarga el notebook y súbelo a Colab.
+---
 
-### Uso con el script (.py)
+## Generador de Contraseñas Seguras
 
+- Script: [`generador_contrasenas.py`](https://github.com/DanyPreisz/proyectos-python-puro/blob/main/generador_contrasenas.py)
+- **Notebook listo para Colab**: [`generador_contrasenas.ipynb`](https://github.com/DanyPreisz/proyectos-python-puro/blob/main/generador_contrasenas.ipynb)
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/DanyPreisz/proyectos-python-puro/blob/main/generador_contrasenas.ipynb)
+
+### Características
+- Generación criptográficamente segura (`secrets`)
+- Control de longitud y tipos de caracteres (mayúsculas, minúsculas, números, símbolos)
+- Garantiza al menos un caracter de cada tipo seleccionado
+- Modo interactivo y por argumentos
+
+### Uso en Colab
 ```python
-# En Colab
-!wget -q https://raw.githubusercontent.com/DanyPreisz/proyectos-python-puro/main/calculadora.py
-!python calculadora.py
+!wget -q https://raw.githubusercontent.com/DanyPreisz/proyectos-python-puro/main/generador_contrasenas.py
+!python generador_contrasenas.py
 ```
 
-```bash
-# Local
-python calculadora.py                  # modo interactivo
-python calculadora.py "5 + 3 * 2"
-python calculadora.py "sqrt(16)"
-```
-
-### Ejemplos
-
-```
->>> 10 + 5
-= 15.0
-
->>> sqrt(81)
-= 9.0
-
->>> 2 ** 10
-= 1024.0
-
->>> 25%
-= 0.25
-```
+O abre el notebook directamente con el badge de arriba.
 
 ---
 
