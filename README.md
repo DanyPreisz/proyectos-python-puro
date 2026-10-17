@@ -59,20 +59,29 @@ Proyectos realizables **solo con la biblioteca estándar** de Python. Sin framew
 ## Organizador de Carpetas por Extensión
 
 - Script: [`organizador_carpetas.py`](https://github.com/DanyPreisz/proyectos-python-puro/blob/main/organizador_carpetas.py)
-- **Notebook listo para Colab**: [`organizador_carpetas.ipynb`](https://github.com/DanyPreisz/proyectos-python-puro/blob/main/organizador_carpetas.ipynb)
+- Notebook: [`organizador_carpetas.ipynb`](https://github.com/DanyPreisz/proyectos-python-puro/blob/main/organizador_carpetas.ipynb)
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/DanyPreisz/proyectos-python-puro/blob/main/organizador_carpetas.ipynb)
 
+---
+
+## Compresor / Descompresor ZIP
+
+- Script: [`compresor_zip.py`](https://github.com/DanyPreisz/proyectos-python-puro/blob/main/compresor_zip.py)
+- **Notebook listo para Colab**: [`compresor_zip.ipynb`](https://github.com/DanyPreisz/proyectos-python-puro/blob/main/compresor_zip.ipynb)
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/DanyPreisz/proyectos-python-puro/blob/main/compresor_zip.ipynb)
+
 ### Características
-- Mueve archivos a subcarpetas según su extensión (`foto.jpg` → `jpg/foto.jpg`)
-- Modo simulación (seguro) antes de aplicar
-- Crea las carpetas automáticamente
-- Archivos sin extensión van a `sin_extension/`
+- Comprimir archivos o carpetas en ZIP
+- Descomprimir archivos ZIP
+- Listar contenido de un ZIP sin extraerlo
+- Usa `zipfile` (biblioteca estándar)
 
 ### Uso en Colab
 ```python
-!wget -q https://raw.githubusercontent.com/DanyPreisz/proyectos-python-puro/main/organizador_carpetas.py
-!python organizador_carpetas.py
+!wget -q https://raw.githubusercontent.com/DanyPreisz/proyectos-python-puro/main/compresor_zip.py
+!python compresor_zip.py
 ```
 
 O abre el notebook con el badge de arriba.
