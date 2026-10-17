@@ -14,23 +14,31 @@ Proyectos realizables **solo con la biblioteca estándar** de Python. Sin framew
 ## Generador de Contraseñas Seguras
 
 - Script: [`generador_contrasenas.py`](https://github.com/DanyPreisz/proyectos-python-puro/blob/main/generador_contrasenas.py)
-- **Notebook listo para Colab**: [`generador_contrasenas.ipynb`](https://github.com/DanyPreisz/proyectos-python-puro/blob/main/generador_contrasenas.ipynb)
+- Notebook: [`generador_contrasenas.ipynb`](https://github.com/DanyPreisz/proyectos-python-puro/blob/main/generador_contrasenas.ipynb)
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/DanyPreisz/proyectos-python-puro/blob/main/generador_contrasenas.ipynb)
 
-### Características
-- Generación criptográficamente segura (`secrets`)
-- Control de longitud y tipos de caracteres (mayúsculas, minúsculas, números, símbolos)
-- Garantiza al menos un caracter de cada tipo seleccionado
-- Modo interactivo y por argumentos
+---
+
+## Conversor de Unidades
+
+- Script: [`conversor_unidades.py`](https://github.com/DanyPreisz/proyectos-python-puro/blob/main/conversor_unidades.py)
+- **Notebook listo para Colab**: [`conversor_unidades.ipynb`](https://github.com/DanyPreisz/proyectos-python-puro/blob/main/conversor_unidades.ipynb)
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/DanyPreisz/proyectos-python-puro/blob/main/conversor_unidades.ipynb)
+
+### Unidades soportadas
+- **Longitud**: mm, cm, m, km, in, ft, mi
+- **Peso**: mg, g, kg, oz, lb
+- **Temperatura**: c (Celsius), f (Fahrenheit), k (Kelvin)
 
 ### Uso en Colab
 ```python
-!wget -q https://raw.githubusercontent.com/DanyPreisz/proyectos-python-puro/main/generador_contrasenas.py
-!python generador_contrasenas.py
+!wget -q https://raw.githubusercontent.com/DanyPreisz/proyectos-python-puro/main/conversor_unidades.py
+!python conversor_unidades.py
 ```
 
-O abre el notebook directamente con el badge de arriba.
+O abre el notebook con el badge de arriba.
 
 ---
 
