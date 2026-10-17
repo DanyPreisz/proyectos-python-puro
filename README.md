@@ -41,21 +41,30 @@ Proyectos realizables **solo con la biblioteca estándar** de Python. Sin framew
 ## Buscador de Archivos
 
 - Script: [`buscador_archivos.py`](https://github.com/DanyPreisz/proyectos-python-puro/blob/main/buscador_archivos.py)
-- **Notebook listo para Colab**: [`buscador_archivos.ipynb`](https://github.com/DanyPreisz/proyectos-python-puro/blob/main/buscador_archivos.ipynb)
+- Notebook: [`buscador_archivos.ipynb`](https://github.com/DanyPreisz/proyectos-python-puro/blob/main/buscador_archivos.ipynb)
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/DanyPreisz/proyectos-python-puro/blob/main/buscador_archivos.ipynb)
 
+---
+
+## Renombrador Masivo de Archivos
+
+- Script: [`renombrador_archivos.py`](https://github.com/DanyPreisz/proyectos-python-puro/blob/main/renombrador_archivos.py)
+- **Notebook listo para Colab**: [`renombrador_archivos.ipynb`](https://github.com/DanyPreisz/proyectos-python-puro/blob/main/renombrador_archivos.ipynb)
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/DanyPreisz/proyectos-python-puro/blob/main/renombrador_archivos.ipynb)
+
 ### Características
-- Búsqueda por nombre (soporta regex)
+- Patrones con `{n}` (número) y `{fecha}`
 - Filtro por extensión
-- Búsqueda en el contenido del archivo (regex)
-- Opción recursiva (subcarpetas)
-- Modo interactivo
+- Prefijo y sufijo
+- Modo simulación (seguro) antes de aplicar
+- Numeración personalizable
 
 ### Uso en Colab
 ```python
-!wget -q https://raw.githubusercontent.com/DanyPreisz/proyectos-python-puro/main/buscador_archivos.py
-!python buscador_archivos.py
+!wget -q https://raw.githubusercontent.com/DanyPreisz/proyectos-python-puro/main/renombrador_archivos.py
+!python renombrador_archivos.py
 ```
 
 O abre el notebook con el badge de arriba.
