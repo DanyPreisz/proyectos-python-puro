@@ -68,20 +68,29 @@ Proyectos realizables **solo con la biblioteca estándar** de Python. Sin framew
 ## Compresor / Descompresor ZIP
 
 - Script: [`compresor_zip.py`](https://github.com/DanyPreisz/proyectos-python-puro/blob/main/compresor_zip.py)
-- **Notebook listo para Colab**: [`compresor_zip.ipynb`](https://github.com/DanyPreisz/proyectos-python-puro/blob/main/compresor_zip.ipynb)
+- Notebook: [`compresor_zip.ipynb`](https://github.com/DanyPreisz/proyectos-python-puro/blob/main/compresor_zip.ipynb)
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/DanyPreisz/proyectos-python-puro/blob/main/compresor_zip.ipynb)
 
+---
+
+## Generador de Nombres
+
+- Script: [`generador_nombres.py`](https://github.com/DanyPreisz/proyectos-python-puro/blob/main/generador_nombres.py)
+- **Notebook listo para Colab**: [`generador_nombres.ipynb`](https://github.com/DanyPreisz/proyectos-python-puro/blob/main/generador_nombres.ipynb)
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/DanyPreisz/proyectos-python-puro/blob/main/generador_nombres.ipynb)
+
 ### Características
-- Comprimir archivos o carpetas en ZIP
-- Descomprimir archivos ZIP
-- Listar contenido de un ZIP sin extraerlo
-- Usa `zipfile` (biblioteca estándar)
+- Nombres de usuario (`adjetivo_sustantivo123`)
+- Nombres de proyectos (`proyecto-adjetivo-sustantivo`)
+- Nombres completamente aleatorios
+- Modo interactivo y por argumentos
 
 ### Uso en Colab
 ```python
-!wget -q https://raw.githubusercontent.com/DanyPreisz/proyectos-python-puro/main/compresor_zip.py
-!python compresor_zip.py
+!wget -q https://raw.githubusercontent.com/DanyPreisz/proyectos-python-puro/main/generador_nombres.py
+!python generador_nombres.py
 ```
 
 O abre el notebook con el badge de arriba.
