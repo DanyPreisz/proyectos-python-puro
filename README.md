@@ -86,20 +86,28 @@ Proyectos realizables **solo con la biblioteca estándar** de Python. Sin framew
 ## Temporizador / Cronómetro
 
 - Script: [`temporizador.py`](https://github.com/DanyPreisz/proyectos-python-puro/blob/main/temporizador.py)
-- **Notebook listo para Colab**: [`temporizador.ipynb`](https://github.com/DanyPreisz/proyectos-python-puro/blob/main/temporizador.ipynb)
+- Notebook: [`temporizador.ipynb`](https://github.com/DanyPreisz/proyectos-python-puro/blob/main/temporizador.ipynb)
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/DanyPreisz/proyectos-python-puro/blob/main/temporizador.ipynb)
 
+---
+
+## Calculadora de IMC y Propinas
+
+- Script: [`calculadora_imc_propinas.py`](https://github.com/DanyPreisz/proyectos-python-puro/blob/main/calculadora_imc_propinas.py)
+- **Notebook listo para Colab**: [`calculadora_imc_propinas.ipynb`](https://github.com/DanyPreisz/proyectos-python-puro/blob/main/calculadora_imc_propinas.ipynb)
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/DanyPreisz/proyectos-python-puro/blob/main/calculadora_imc_propinas.ipynb)
+
 ### Características
-- Cronómetro (cuenta hacia arriba, Enter para detener)
-- Temporizador (cuenta hacia atrás)
-- Formato HH:MM:SS
-- Modo interactivo
+- Calcula IMC y clasificación (bajo peso, normal, sobrepeso, obesidad)
+- Calcula propina, total y monto por persona
+- Modo interactivo y por argumentos
 
 ### Uso en Colab
 ```python
-!wget -q https://raw.githubusercontent.com/DanyPreisz/proyectos-python-puro/main/temporizador.py
-!python temporizador.py
+!wget -q https://raw.githubusercontent.com/DanyPreisz/proyectos-python-puro/main/calculadora_imc_propinas.py
+!python calculadora_imc_propinas.py
 ```
 
 O abre el notebook con el badge de arriba.
