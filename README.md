@@ -77,20 +77,29 @@ Proyectos realizables **solo con la biblioteca estándar** de Python. Sin framew
 ## Generador de Nombres
 
 - Script: [`generador_nombres.py`](https://github.com/DanyPreisz/proyectos-python-puro/blob/main/generador_nombres.py)
-- **Notebook listo para Colab**: [`generador_nombres.ipynb`](https://github.com/DanyPreisz/proyectos-python-puro/blob/main/generador_nombres.ipynb)
+- Notebook: [`generador_nombres.ipynb`](https://github.com/DanyPreisz/proyectos-python-puro/blob/main/generador_nombres.ipynb)
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/DanyPreisz/proyectos-python-puro/blob/main/generador_nombres.ipynb)
 
+---
+
+## Temporizador / Cronómetro
+
+- Script: [`temporizador.py`](https://github.com/DanyPreisz/proyectos-python-puro/blob/main/temporizador.py)
+- **Notebook listo para Colab**: [`temporizador.ipynb`](https://github.com/DanyPreisz/proyectos-python-puro/blob/main/temporizador.ipynb)
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/DanyPreisz/proyectos-python-puro/blob/main/temporizador.ipynb)
+
 ### Características
-- Nombres de usuario (`adjetivo_sustantivo123`)
-- Nombres de proyectos (`proyecto-adjetivo-sustantivo`)
-- Nombres completamente aleatorios
-- Modo interactivo y por argumentos
+- Cronómetro (cuenta hacia arriba, Enter para detener)
+- Temporizador (cuenta hacia atrás)
+- Formato HH:MM:SS
+- Modo interactivo
 
 ### Uso en Colab
 ```python
-!wget -q https://raw.githubusercontent.com/DanyPreisz/proyectos-python-puro/main/generador_nombres.py
-!python generador_nombres.py
+!wget -q https://raw.githubusercontent.com/DanyPreisz/proyectos-python-puro/main/temporizador.py
+!python temporizador.py
 ```
 
 O abre el notebook con el badge de arriba.
