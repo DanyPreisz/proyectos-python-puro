@@ -50,21 +50,29 @@ Proyectos realizables **solo con la biblioteca estándar** de Python. Sin framew
 ## Renombrador Masivo de Archivos
 
 - Script: [`renombrador_archivos.py`](https://github.com/DanyPreisz/proyectos-python-puro/blob/main/renombrador_archivos.py)
-- **Notebook listo para Colab**: [`renombrador_archivos.ipynb`](https://github.com/DanyPreisz/proyectos-python-puro/blob/main/renombrador_archivos.ipynb)
+- Notebook: [`renombrador_archivos.ipynb`](https://github.com/DanyPreisz/proyectos-python-puro/blob/main/renombrador_archivos.ipynb)
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/DanyPreisz/proyectos-python-puro/blob/main/renombrador_archivos.ipynb)
 
+---
+
+## Organizador de Carpetas por Extensión
+
+- Script: [`organizador_carpetas.py`](https://github.com/DanyPreisz/proyectos-python-puro/blob/main/organizador_carpetas.py)
+- **Notebook listo para Colab**: [`organizador_carpetas.ipynb`](https://github.com/DanyPreisz/proyectos-python-puro/blob/main/organizador_carpetas.ipynb)
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/DanyPreisz/proyectos-python-puro/blob/main/organizador_carpetas.ipynb)
+
 ### Características
-- Patrones con `{n}` (número) y `{fecha}`
-- Filtro por extensión
-- Prefijo y sufijo
+- Mueve archivos a subcarpetas según su extensión (`foto.jpg` → `jpg/foto.jpg`)
 - Modo simulación (seguro) antes de aplicar
-- Numeración personalizable
+- Crea las carpetas automáticamente
+- Archivos sin extensión van a `sin_extension/`
 
 ### Uso en Colab
 ```python
-!wget -q https://raw.githubusercontent.com/DanyPreisz/proyectos-python-puro/main/renombrador_archivos.py
-!python renombrador_archivos.py
+!wget -q https://raw.githubusercontent.com/DanyPreisz/proyectos-python-puro/main/organizador_carpetas.py
+!python organizador_carpetas.py
 ```
 
 O abre el notebook con el badge de arriba.
