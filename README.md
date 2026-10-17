@@ -23,19 +23,30 @@ Proyectos realizables **solo con la biblioteca estándar** de Python. Sin framew
 ## Conversor de Unidades
 
 - Script: [`conversor_unidades.py`](https://github.com/DanyPreisz/proyectos-python-puro/blob/main/conversor_unidades.py)
-- **Notebook listo para Colab**: [`conversor_unidades.ipynb`](https://github.com/DanyPreisz/proyectos-python-puro/blob/main/conversor_unidades.ipynb)
+- Notebook: [`conversor_unidades.ipynb`](https://github.com/DanyPreisz/proyectos-python-puro/blob/main/conversor_unidades.ipynb)
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/DanyPreisz/proyectos-python-puro/blob/main/conversor_unidades.ipynb)
 
-### Unidades soportadas
-- **Longitud**: mm, cm, m, km, in, ft, mi
-- **Peso**: mg, g, kg, oz, lb
-- **Temperatura**: c (Celsius), f (Fahrenheit), k (Kelvin)
+---
+
+## Contador de Palabras, Líneas y Caracteres
+
+- Script: [`contador_texto.py`](https://github.com/DanyPreisz/proyectos-python-puro/blob/main/contador_texto.py)
+- **Notebook listo para Colab**: [`contador_texto.ipynb`](https://github.com/DanyPreisz/proyectos-python-puro/blob/main/contador_texto.ipynb)
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/DanyPreisz/proyectos-python-puro/blob/main/contador_texto.ipynb)
+
+### Características
+- Cuenta líneas (totales y no vacías)
+- Palabras
+- Caracteres (con y sin espacios)
+- Párrafos
+- Funciona con archivos o texto pegado
 
 ### Uso en Colab
 ```python
-!wget -q https://raw.githubusercontent.com/DanyPreisz/proyectos-python-puro/main/conversor_unidades.py
-!python conversor_unidades.py
+!wget -q https://raw.githubusercontent.com/DanyPreisz/proyectos-python-puro/main/contador_texto.py
+!python contador_texto.py
 ```
 
 O abre el notebook con el badge de arriba.
