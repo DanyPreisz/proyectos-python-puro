@@ -32,21 +32,30 @@ Proyectos realizables **solo con la biblioteca estándar** de Python. Sin framew
 ## Contador de Palabras, Líneas y Caracteres
 
 - Script: [`contador_texto.py`](https://github.com/DanyPreisz/proyectos-python-puro/blob/main/contador_texto.py)
-- **Notebook listo para Colab**: [`contador_texto.ipynb`](https://github.com/DanyPreisz/proyectos-python-puro/blob/main/contador_texto.ipynb)
+- Notebook: [`contador_texto.ipynb`](https://github.com/DanyPreisz/proyectos-python-puro/blob/main/contador_texto.ipynb)
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/DanyPreisz/proyectos-python-puro/blob/main/contador_texto.ipynb)
 
+---
+
+## Buscador de Archivos
+
+- Script: [`buscador_archivos.py`](https://github.com/DanyPreisz/proyectos-python-puro/blob/main/buscador_archivos.py)
+- **Notebook listo para Colab**: [`buscador_archivos.ipynb`](https://github.com/DanyPreisz/proyectos-python-puro/blob/main/buscador_archivos.ipynb)
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/DanyPreisz/proyectos-python-puro/blob/main/buscador_archivos.ipynb)
+
 ### Características
-- Cuenta líneas (totales y no vacías)
-- Palabras
-- Caracteres (con y sin espacios)
-- Párrafos
-- Funciona con archivos o texto pegado
+- Búsqueda por nombre (soporta regex)
+- Filtro por extensión
+- Búsqueda en el contenido del archivo (regex)
+- Opción recursiva (subcarpetas)
+- Modo interactivo
 
 ### Uso en Colab
 ```python
-!wget -q https://raw.githubusercontent.com/DanyPreisz/proyectos-python-puro/main/contador_texto.py
-!python contador_texto.py
+!wget -q https://raw.githubusercontent.com/DanyPreisz/proyectos-python-puro/main/buscador_archivos.py
+!python buscador_archivos.py
 ```
 
 O abre el notebook con el badge de arriba.
